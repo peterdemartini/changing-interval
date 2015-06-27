@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+deploy:
+  provider: npm
+  email: peter@superlativecode.com
+  api_key:
+    secure: DYLtPhPX3F0T1kVZRkrKB/s0EC45uiDv+cWkZUhiR0xmPcSKQ3RfrDWr2JKcGqQvqYBwGEJRDo2A9DF/A/inaDsRnqdaIIibTu1Hsj6hjx+nfKjed/lNl2h2vWR1Pok5eIOxeOKm0W9HiBa5fmscXtNGxEN5SBkNM4e8mad2xDjOcFBVIZgr7R93tE9gmSpBb6pd7Hk0VmnTm7ao8YXtLRg3R3BhJ/oSsEmF7anTQBjEz3oZfKeal/UO6E4Njzks1FX0RcvnFhkNBr6Jo8U/JgS9sFRMT+5gs+aLKPV36AkmNF1w3rwX85UYSBUk4qWProtgmVukq9EM12reUjZIiip2vK5yxGWbqiWHdLTrJ9kQc+FpRKiqpj9mfNSisKvfbVWpQzPZDLRrdDml6KdjzGd5tKG681arZzdyU0WqufguocUfpq1fUN2zvi1PlIU9o2iCu8OKRGThX5tZTl2tOG8tgFtY02A8aYxXQlBmNiqVet15UtqA1Wk8Ue51N+FcvnXj67V+yOroSXMIp+Gect7oL8Lt9pztflezpLhiK6TRCHRmeXTn35XCPvmVwienlH1mhuNx0R/Ldjbjo8loR32Cnl2Dxxqkevv3DwJVkghuUsXX/TEAbFOiZ99hb3MTgrfyN8vzpmfFCp702U0Fs3y46uA3XypUhWkPBugQT5I=
+  on:
+    tags: true
+    repo: peterdemartini/changing-interval
