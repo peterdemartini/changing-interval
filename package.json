@@ -1,6 +1,6 @@
 {
   "name": "changing-interval",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Changing setInterval",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/peterdemartini/changing-set-interval.git"
+    "url": "git+https://github.com/peterdemartini/changing-interval.git"
   },
   "keywords": [
     "Changing",
@@ -17,9 +17,9 @@
   "author": "Peter DeMartini",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/peterdemartini/changing-set-interval/issues"
+    "url": "https://github.com/peterdemartini/changing-interval/issues"
   },
-  "homepage": "https://github.com/peterdemartini/changing-set-interval#readme",
+  "homepage": "https://github.com/peterdemartini/changing-interval#readme",
   "devDependencies": {
     "chai": "^3.0.0",
     "mocha": "^2.2.5",
